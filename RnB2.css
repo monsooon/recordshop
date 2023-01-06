@@ -1,0 +1,136 @@
+.slider-for img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#ourpick, #category, #newarial{
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+    width: 1020px;
+}
+
+
+main{
+    width: 1020px;
+    /* background-color: white; */
+    /* background-color: rgba(255, 251, 251, 0.189); */
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+ul p{
+    height: 150px;
+    width: 150px;
+    background: #FFC771;
+    border-radius: 100px;
+    margin: 10px 10px 60px 40px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 1px rgb(38, 38, 38);
+}
+
+
+/* sza */
+#artist1{
+    background-image: url(img/GIVEON-album.jpg);
+    background-size: cover;
+}
+
+#artist2{
+    background-image: url(img/SZA-SOS.jpg);
+    background-size: cover;
+}
+
+#artist3{
+    background-image: url(img/Nao1jpg.jpg);
+    background-size: cover;
+}
+
+#artist4{
+    background-image: url(img/daniel-caesar.jpg);
+    background-size: cover;
+}
+
+#artist5{
+    background-image: url(img/daniel-caesar.jpg);
+    background-size: cover;
+}
+
+section, article{
+    width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    margin-bottom: 300px;
+    /* background-color: rgb(232, 101, 101); */
+}
+
+
+
+/* 카테고리 관련 */
+
+.text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    width: 120px;
+    font-size: 40px;
+}
+
+.box{
+    position: relative;
+    width: 310px;
+    height: 200px;
+    background-size: cover;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    background-image:url(img/concert3.jpg) ;
+
+    /* background-color: rgba(255, 255, 255); */
+}
+
+.box:nth-child(2){
+    margin: 0 40px;
+}
+
+/* -------------------------------- */
+#article{
+    width: 1020px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.box2{
+    float: left;
+    margin: 12px;
+    /* background-color: rgba(255, 255, 255); */
+    /* border-radius: 5px; */
+    padding: 10px;
+    /* box-shadow: 1px 1px 1px ; */
+    /* position: relative; */
+}
+
+.box2 img{
+    width: 210px;
+    height: 210px;
+    /* position: absolute; */
+}
+
+.box2 p{
+    color: rgb(255, 255, 255);
+    
+    /* font-weight: bold; */
+    /* position: absolute; */
+}
+
+.p2{
+    width: 200px;
+}
+
+#clear{
+    clear: both;
+}
