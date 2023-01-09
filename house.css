@@ -1,0 +1,204 @@
+main{
+    margin: 0 auto;
+    width: 1020px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+main img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul p{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 10px 10px 60px 40px;
+    box-shadow: 10px 10px 10px 1px rgb(38, 38, 38);
+}
+
+
+
+/* sza */
+#artist1{
+    background-image: url(img/jengi.jpg);
+    background-size: cover;
+}
+
+#artist2{
+    background-image: url(img/peggygou.png);
+    background-size: cover;
+}
+
+#artist3{
+    background-image: url(img/yungbae3.png);
+    background-size: cover;
+}
+
+#artist4{
+    background-image: url(img/moon_boots.jpg);
+    background-size: cover;
+}
+
+
+
+section, article{
+    width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    margin-bottom: 300px;
+    /* background-color: rgb(232, 101, 101); */
+}
+
+article{
+    margin-bottom: 100px;
+}
+
+
+/* h1 글자 관련 */
+#ourpick, #category, #newarial{
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+    width: 1020px;
+}
+
+/* 카테고리 관련 */
+
+.text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    width: 120px;
+    font-size: 40px;
+}
+
+.box{
+    position: relative;
+    width: 310px;
+    height: 200px;
+    background-size: cover;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+    background-image:url(img/concert3.jpg) ;
+    margin: 15px;
+}
+
+/* .box:nth-child(2){
+    margin: 0 40px;
+} */
+
+
+
+
+/* box2 ---------- New Arrial 관련 */
+
+
+#article{
+    width: 1020px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.box2{
+    float: left;
+    margin: 12px;
+    padding: 10px;
+}
+
+.box2 img{
+    width: 210px;
+    height: 210px;
+}
+
+.box2 p{
+    color: rgb(255, 255, 255);
+}
+
+.p2{
+    width: 200px;
+}
+
+#clear{
+    clear: both;
+}
+
+/* Deep House------------ */
+
+.genre_box {
+    margin-top: 10px;
+    width: 1020px;
+    background-color: rgba(3, 3, 3, 0.855);
+    border-radius: 20px;
+}
+
+.image{
+    width: 30%;
+    height: 600px;
+    background-image: url(img/vinyl.jpg);
+    background-size: cover;
+    float: left;
+    border-radius: 20px;
+}
+
+.genre_box pre{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    float: left;
+    color: white;
+    /* font-weight: bold; */
+    font-family:'Gill Sans';
+}
+
+.genre_box h3{
+    left: 400px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.genre_box hr{
+    margin-left: 60px;
+    width: 600px;
+}
+.genre_box button{
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.genre_box button:hover{
+    background-color: orange;
+}
+
+
+.image02{
+    width: 30%;
+    height: 600px;
+    background-image: url(img/vintage-collage-composition.jpg);
+    background-size: cover;
+    float: left;
+    border-radius: 20px;
+}
+
+.image03{
+    width: 30%;
+    height: 600px;
+    background-image: url(img/black-man-posing-with-vinyls.jpg);
+    background-size: cover;
+    float: left;
+    border-radius: 20px;
+}
+

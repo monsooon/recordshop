@@ -1,0 +1,176 @@
+/* Best Product */
+main h1{
+    color: white;
+    margin: 10px 10px 30px 10px;
+    font-size: 50px;
+}
+
+
+main{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 100px;
+    /* background-color: blue; */
+}
+
+
+/* ------------------------------------------------ */
+.slider-div {
+    /* background-color: white; */
+    border-radius: 20px;
+}
+
+
+.slider-div img{
+    margin: 0 auto;
+    /* width: 1020px; */
+    border-radius: 20px;
+}
+
+
+/* MonsoonPick ---------------------------------- */
+
+section{
+    margin-bottom: 200px;
+}
+
+
+section h1{
+    color: white;
+    font-size: 50px;
+    margin: 10px 10px 30px -640px;
+    text-align: center;
+}
+
+#genre{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 230px);
+    grid-gap: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box{
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+  
+}
+
+.qiuckview{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    right: 30px;
+    bottom: 30px;
+   
+}
+
+.caption{
+    position: absolute;   
+    color: #fff;
+    z-index:100;
+    width:100px;
+    height:200px;
+    /* background-color: rgba(53, 50, 50, 0.579); */
+    /* background-color: white; */
+    left:-64px;
+    top: -390px;
+    padding:20px;
+    transition: all 800ms ease;
+}
+
+
+.box:hover .caption{
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  .box .caption button {
+    position:absolute;
+    font-size: 20px;
+    bottom:50px;
+    background-color:rgb(254, 168, 8);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .caption button:hover {
+    transition: all 800ms ease;
+    color: rgb(0, 0, 4);
+    cursor: pointer;
+  }
+
+
+/* ---------------------------------------------------- */
+
+.grid01{
+    background-color: #c3f0c8;
+    position: relative;
+    /* caption 보기 */
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.grid02{
+    background-color: #D16BA5;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid03{
+    background-color: #5FFBF1;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid04{
+    background-color: #A8EB12;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.grid05{
+    background-color: #DDD7C6;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid06{
+    background-color: #2CD261;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid07{
+    background-color: #F45182;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid08{
+    background-color: #00B287;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 3px 3px rgba(5, 5, 5, 0.167);
+}

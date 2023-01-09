@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script> -->
+    <!-- End WOWSlider.com HEAD section -->
+    <title>Record:Z</title>
+</head>
+<body>
+    <header>
+        <h1>Record:Z </h1>
+        <h3>in your music!</h3>
+    </header>
+    <nav>
+        <ul>
+            <a href=""><li>Disco</li></a>
+            <a href=""><li>R&B</li></a>
+            <a href=""><li>House</li></a>
+            <a href=""><li>Merch</li></a>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <pre> <-------- Album Of The Month --------></pre> 
+        <ul id="chart">
+            <li>
+                <p></p>
+            </li>
+            <li>
+                <div><img src="../img/drake.jpg" alt=""></div>
+            </li>
+           
+            <li>
+                <p></p>
+            </li> -->
+            <!-- <li></li>
+            <li></li>
+            <li></li> -->
+        </ul>
+    </main>
+
+    <section>
+        <h1>Monsoon Pick!</h1>
+        <ul id="genre">
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+            <li>
+                <p>disco</p>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <div id="ftdiv">
+            <p>monsoon</p>
+        </div>
+    </footer>
+</body>
+</html>

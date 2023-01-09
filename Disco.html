@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="co.css">
+    <link rel="stylesheet" href="disco.css">
+    <link rel="icon" href="img/favicon.ico">
+
+    <script src="js/jquery.js"></script>
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
+    <!-- slick -->
+    <title>Disco in your blood!</title>
+</head>
+<body>
+    <header>
+        <div id="logobox">
+            <a href="index.html"><h1>Record:Z </h1></a>
+            <h3>in your music!</h3>    
+        </div>
+        <nav>
+            <ul>
+                <a href="Disco.html"><li>Disco</li></a>
+                <a href="RnB2.html"><li>R&B</li></a>
+                <a href="House.html"><li>House</li></a>
+                <a href="Merch.html"><li>Merch</li></a>
+                <a href="Aboutus.html"><li>About Us</li></a>
+            </ul>
+        </nav>
+    </header>
+    <hr id="firsthr">
+    
+    <!-- Our pick ---------------------------- -->
+    <h1 id="ourpick">Our Pick!</h1>
+    <main class="slide-box">
+        <ul class="slider-for">
+            <li><img src="img/disco-2.png" alt=""></li>
+            <li><img src="img/disco-3.png" alt=""></li>
+            <li><img src="img/disco-22.png" alt=""></li>
+            <li><img src="img/disco-4.png" alt=""></li>
+        </ul>
+
+        <ul class="slider-nav">
+            <li><p id="artist1"></p></li>
+            <li><p id="artist2"></p></li>
+            <li><p id="artist3"></p></li>
+            <li><p id="artist4"></p></li>
+        </ul>
+    </main>
+    
+    
+    <section>
+        <div id="section">
+            <div class="box">
+                <p class="text">FUNK</p>
+            </div>
+            <div class="box">
+                <p class="text">NU-DISCO</p>
+            </div>
+            <div class="box">
+                <p class="text">SOULFUL</p>
+            </div>
+        </div>
+    </section>
+
+    <article>
+            <h1 id="newarial">New Arrial</h1>
+            <div id="article">
+                <div class="box2">
+                    <img src="img/album1.gif" alt="">
+                    <p><b>Blue lab beats</b> </p>
+                    <p class="p2">jqurney [2CD/Blu-ray Box Set]</p>
+                    <hr>
+                    <p>$25.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco1.jpg" alt="">
+                    <p><b>Soulmatic</b> </p>
+                    <p class="p2">Purple Disco Machine [purple vinyle] </p>
+                    <hr>
+                    <p>$19.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco2.jpg" alt="">
+                    <p><b>Mickey Mouse</b> </p>
+                    <p class="p2">Mickey Mouse Disco [2CD/Lp] 
+                    <hr>
+                    <p>$25.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco3.jpg" alt="">
+                    <p><b>The best of</b> </p>
+                    <p class="p2">EARTH WIND & FIRE [2CD/Lp]</p>
+                    <hr>
+                    <p>$25.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco4.jpg" alt="">
+                    <p><b>Discovery</b> </p>
+                    <p class="p2">Discovery Electric  [2CD/Lp/Rare]</p>
+                    <hr>
+                    <p>$25.00</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco5.jpg" alt="">
+                    <p><b>All This Love</b> </p>
+                    <p class="p2">Debargge [CD] (Recommand for this)</p>
+                    <hr>
+                    <p>$18.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco6.jpeg" alt="">
+                    <p><b>Watch the sun</b> </p>
+                    <p class="p2">pj morton [2CD] (Recommand for this)</p>
+                    <hr>
+                    <p>$12.99</p>
+                </div>
+                <div class="box2">
+                    <img src="img/disco7.jpeg" alt="">
+                    <p><b>Star Wars Funk</b> </p>
+                    <div id="clear"></div>
+                    <p class="p2">Star Wars Funk [4CD/Blu-ray Box Set]</p>
+                    <hr>
+                    <p>$20.99</p>
+                </div>
+                <div id="clear"></div>
+            </div>
+    </article>
+
+    <footer>
+        <div id="ftdiv">
+            <p>@monsoon Seoul, KOREA</p>
+        </div>
+    </footer>
+</body>
+<script>
+   
+   
+   $(function(){
+
+    function sliderSet(slickfor,slicknav){
+    slickfor.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: true,
+        asNavFor:slicknav,
+        autoplay:true
+    });
+    slicknav.slick({
+        slidesToShow: 4,
+        slidesToScroll:1,
+        focusOnSelect: true,
+        dots: false,
+        arrows:true,
+        infinite:true,
+        asNavFor: slickfor
+    });
+    }
+
+    $('.slide-box').each(function(i,el){
+    i+=1; 
+    var slickfor = $(el).find('.slider-for').addClass('for'+ i)
+    var slicknav = $(el).find('.slider-nav').addClass('nav'+ i)
+    sliderSet(slickfor,slicknav);
+    })
+
+    })
+			
+</script>
+</html>
